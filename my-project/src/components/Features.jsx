@@ -1,7 +1,7 @@
 import React from "react";
 import star from "../assets/star.png";
 import design from "../assets/design.png";
-import lab from "../assets/lab.png";
+import Lab from "../assets/Lab.png";
 import carrer from "../assets/carrer.png";
 
 export default function Features() {
@@ -43,7 +43,7 @@ export default function Features() {
         <div className="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl text-white">
           <div className="flex items-center gap-3">
             <h2 className="font-bold text-lg">Innovation Labs</h2>
-            <img src={lab} alt="Labs" className="h-8 w-8" />
+            <img src={Lab} alt="Labs" className="h-8 w-8" />
           </div>
           <p className="mt-3 text-sm">
             Centers of Excellence in Robotics, IoT, AR/VR, and Digital Manufacturing.
