@@ -8,7 +8,10 @@ import Footer from './components/Footer'
 import Hero from './components/Hero';
 import Stats from './components/Stats'
 import New from './components/New';
+import usePageTracking from './components/UsePageTracking'
 function App() {
+
+  usePageTracking();
 
   return (
     <div>
