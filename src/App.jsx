@@ -7,7 +7,7 @@ import Scholarship from './components/Scholarship'
 import Footer from './components/Footer'
 import Hero from './components/Hero';
 import Stats from './components/Stats'
-
+import New from './components/New';
 function App() {
 
   return (
@@ -19,6 +19,7 @@ function App() {
         <Campus/>
         <Scholarship/>
         <Footer/>
+        <New/>
     </div>
   )
 }
